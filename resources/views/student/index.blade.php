@@ -38,7 +38,7 @@
 
         <!-- BUTTON AT BOTTOM -->
         <div class="mt-3">
-            <a href="{{ route('student.index') }}" class="btn btn-info">
+            <a href="{{ route('student.create') }}" class="btn btn-info">
                 Add New Student
             </a>
         </div>
