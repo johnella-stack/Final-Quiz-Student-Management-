@@ -13,22 +13,22 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    
                     <th>First Name</th>
-                    <th>Last Name</th>
                     <th>Middle Name</th>
+                    <th>Last Name</th>
                     <th>Address</th>
-                    <th>DOB</th>
+                    <th>Date of Birth</th>
                 </tr>
             </thead>
 
             <tbody>
                 @foreach($students as $student)
                 <tr>
-                    <td>{{ $student->id }}</td>
+                  
                     <td>{{ $student->fname }}</td>
-                    <td>{{ $student->lname }}</td>
                     <td>{{ $student->mname }}</td>
+                    <td>{{ $student->lname }}</td>
                     <td>{{ $student->address }}</td>
                     <td>{{ $student->dob }}</td>
 

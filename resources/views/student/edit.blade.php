@@ -43,13 +43,7 @@
                                 @error('fname') <span class="text-danger">{{ $message }}</span> @enderror
                             </div>
 
-                            <!-- Last Name -->
-                            <div class="form-group col-12">
-                                <label>Last Name</label>
-                                <input type="text" class="form-control" name="lname"
-                                    value="{{ $student->lname }}">
-                                @error('lname') <span class="text-danger">{{ $message }}</span> @enderror
-                            </div>
+
 
                             <!-- Middle Name -->
                             <div class="form-group col-12">
@@ -58,6 +52,17 @@
                                     value="{{ $student->mname }}">
                                 @error('mname') <span class="text-danger">{{ $message }}</span> @enderror
                             </div>
+
+                            
+                            <!-- Last Name -->
+                            <div class="form-group col-12">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" name="lname"
+                                    value="{{ $student->lname }}">
+                                @error('lname') <span class="text-danger">{{ $message }}</span> @enderror
+                            </div>
+
+                
 
                             <!-- Address -->
                             <div class="form-group col-12">
